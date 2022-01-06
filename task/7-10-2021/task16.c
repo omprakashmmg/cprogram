@@ -1,0 +1,41 @@
+/*
+for(i='A';i<='E';i++)
+{
+for(j=1;j<=5;j++)
+{
+}
+}
+i=?,j=?
+*/
+#include<stdio.h>
+void main()
+{
+	int i,j;
+	for(i='A';i<='E';i++)
+	{
+for(j=1;j<=5;j++)
+{
+printf("%c",j);	
+}
+printf("\n");
+}
+}
+/*
+i=
+AAAAA
+BBBBB
+CCCCC
+DDDDD
+EEEEE
+j=12345
+12345
+12345
+12345
+12345
+and char value=
+?????
+?????
+?????
+?????
+?????
+*/
